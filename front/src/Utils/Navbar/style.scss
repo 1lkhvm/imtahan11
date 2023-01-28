@@ -1,0 +1,49 @@
+.navbar-container {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+
+    nav {
+        display: flex;
+        width: 60%;
+        justify-content: center;
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            width: 50%;
+
+            img {
+                width: 140px;
+                height: 40px;
+            }
+
+        }
+
+        .nav-menu {
+            width: 50%;
+            display: flex;
+
+            ul {
+                display: flex;
+                gap: 20px;
+
+                li {
+                    display: flex;
+                    gap: 20px;
+                    list-style: none;
+
+                    .NavLink {
+                        text-decoration: none;
+                        color: rgb(255, 248, 248);
+                        font-size: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+}

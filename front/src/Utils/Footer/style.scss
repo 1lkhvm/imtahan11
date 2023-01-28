@@ -1,0 +1,38 @@
+.footer-container {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    height: 30vh;
+    background-color: #283367;
+    justify-content: center;
+    align-items: center;
+
+    .footer {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .footer-text {
+            p {
+                color: white;
+            }
+        }
+
+        .footer-icon {
+            display: flex;
+            gap: 20px;
+
+            i {
+                color: white;
+                cursor: pointer;
+            }
+
+            i:hover {
+                color: aqua;
+            }
+        }
+    }
+
+
+}
